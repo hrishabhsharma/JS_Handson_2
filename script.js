@@ -99,7 +99,7 @@ let ans_7 = factorial(5)
 
 Qno7.innerText += `\n The factorial of number 5 is ${ans_7}`
 
-// Output for Question No 8
+// Output for Question No 1 For Day 2
 
 var Qno8 = document.getElementById("Q8")
 
@@ -115,7 +115,7 @@ let ans_8 = DisplayData("PrepBytes", FindSum(10, 9))
 
 Qno8.innerText += ` ${ans_8}`
 
-// Output for Question No 9
+// Output for Question No 2 For Day 2
 
 var Qno9 = document.getElementById("Q9")
 
@@ -128,9 +128,15 @@ var Qno9 = document.getElementById("Q9")
 
 Qno9.innerText += ` Error`
 
-// Output for Question No 10
+// Output for Question No 3
 
 var Qno10 = document.getElementById("Q10")
+
+Qno10.innerText += ` Undefined`
+
+// Output for Question No 4
+
+var Qno11 = document.getElementById("Q11")
 
 
 const greet =  function(name){
@@ -141,6 +147,6 @@ const greet =  function(name){
 }
 
 const greet_message = greet('EA19');
-let ans_10 = greet_message("Welcome To PrepBytes")
+let ans_11 = greet_message("Welcome To PrepBytes")
 
-Qno10.innerText += ` ${ans_10}`
+Qno11.innerText += ` ${ans_11}`
