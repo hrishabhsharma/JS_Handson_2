@@ -132,7 +132,13 @@ Qno9.innerText += ` Error`
 
 var Qno10 = document.getElementById("Q10")
 
-Qno10.innerText += ` Undefined`
+var a = 10;
+let ans_10 = (function (){
+    console.log(a);
+    var a = 20;
+})();
+
+Qno10.innerText += ` ${ans_10}`
 
 // Output for Question No 4
 
