@@ -12,6 +12,7 @@ body{
     font-size: 50px;
 }
 h1{
+    color: #7FFFD4;
     text-shadow: 2px 0px 1px black;
     text-align: center;
     width: 100%;
