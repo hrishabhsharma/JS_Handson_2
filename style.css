@@ -18,11 +18,13 @@ h1{
     width: 100%;
 }
 h2{
+    font-size: 28px;
     color: #003262;
     text-shadow: 1px 0px 1px #2072AF;
 }
 .output{
     color: #512888;
+    font-size: 22px;
     background: rgb(230,160,61);
     background: linear-gradient(90deg, rgba(230,160,61,1) 0%, rgba(224,86,86,1) 72%, rgba(155,94,195,1) 100%);
 }

@@ -46,7 +46,7 @@ var girl = function () {
 };
 let ans_4 = girl()
 
-Qno4.innerHTML += `${ans_4}`;
+Qno4.innerHTML += `The output of above question is (${ans_4}). \n It is because x declared in function scope and called before declaration. \nTherfore x does not go out from function scope to gobal scope in search of value of x.`
 
 // Output for Question No 5
 
@@ -60,7 +60,7 @@ function girl2() {
     var x2 = 20;
 };
 
-Qno5.innerText += ` ${ans_5} \n .  . . . . . . ${x2}`
+Qno5.innerText += `The output of above question is (${ans_5}) and (${x2}). \n First output is because girl function has x variable and call before declaration within the function scope and second one is because x variable declared in global scope so it took global value before calling x. `
 
 // Output for Question No 6
 
@@ -80,7 +80,7 @@ function b() {
     return x3;
 };
 
-Qno6.innerText += ` ${ans_6a} ${ans_6b}`
+Qno6.innerText += `The output of above question is (${ans_6a}) and (${ans_6b}).\n First output is because (a) function has variable x and call after declaration within the function scope and second one has same reason.`
 
 // Output for Question No 7
 
@@ -97,7 +97,7 @@ function factorial(n){
 
 let ans_7 = factorial(5)
 
-Qno7.innerText += `\n The factorial of number 5 is ${ans_7}`
+Qno7.innerText += `\n The factorial of number 5 is (${ans_7})`
 
 // Output for Question No 1 For Day 2
 
@@ -113,7 +113,7 @@ function DisplayData(data, batch){
 
 let ans_8 = DisplayData("PrepBytes", FindSum(10, 9))
 
-Qno8.innerText += ` ${ans_8}`
+Qno8.innerText += `First create a function of addition two number and create another function which print the whole lines with the value of two parameter. Now We call the second function having two parameter in which first one is a string and second one is a calling first function for addition two number.\n Then The resulting output is ("${ans_8}"). \n This is an example of callback() function.`
 
 // Output for Question No 2 For Day 2
 
@@ -126,7 +126,7 @@ var Qno9 = document.getElementById("Q9")
 //     console.log(value);
 // }
 
-Qno9.innerText += ` Error`
+Qno9.innerText += `The output of above question is (Error). This is because Abc() function is called before declaration which is illegal for const variable.`
 
 // Output for Question No 3
 
@@ -138,7 +138,7 @@ let ans_10 = (function (){
     var a = 20;
 })();
 
-Qno10.innerText += ` ${ans_10}`
+Qno10.innerText += `The output of above question is (${ans_10}). \n It is because (a) variable declared in function scope and called before declaration. \n Therfore (a) variable does not go out from function scope to gobal scope in search of value of (a) variable`
 
 // Output for Question No 4
 
@@ -154,5 +154,6 @@ const greet =  function(name){
 
 const greet_message = greet('EA19');
 let ans_11 = greet_message("Welcome To PrepBytes")
+console.log(ans_11)
 
-Qno11.innerText += ` ${ans_11}`
+Qno11.innerText += `Firstly we create an function having one parameter (name) and named as (greet) const variable. In (name) function , We create another function having one paramter (m) and return it and inside there is a string having value of (name) paramter and (m) parameter and going to be return.\n After creating function, There is a const variable (greet_message) storing greet function having (EA19) parameter. Then call the greet_message as function having (Welcome To PrepBytes) parameter.   ${ans_11}`
